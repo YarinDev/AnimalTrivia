@@ -13,6 +13,8 @@
 		614A7C832840CC0A008F3BE4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 614A7C812840CC0A008F3BE4 /* Main.storyboard */; };
 		614A7C852840CC0B008F3BE4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 614A7C842840CC0B008F3BE4 /* Assets.xcassets */; };
 		614A7C882840CC0B008F3BE4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 614A7C862840CC0B008F3BE4 /* LaunchScreen.storyboard */; };
+		614A7C902840D702008F3BE4 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 614A7C8F2840D702008F3BE4 /* GameViewController.swift */; };
+		614A7C922840D989008F3BE4 /* document.json in Resources */ = {isa = PBXBuildFile; fileRef = 614A7C912840D989008F3BE4 /* document.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		614A7C842840CC0B008F3BE4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		614A7C872840CC0B008F3BE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		614A7C892840CC0B008F3BE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		614A7C8F2840D702008F3BE4 /* GameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		614A7C912840D989008F3BE4 /* document.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = document.json; path = ../../document.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 		614A7C7A2840CC0A008F3BE4 /* AnimalTrivia */ = {
 			isa = PBXGroup;
 			children = (
+				614A7C912840D989008F3BE4 /* document.json */,
+				614A7C8F2840D702008F3BE4 /* GameViewController.swift */,
 				614A7C7B2840CC0A008F3BE4 /* AppDelegate.swift */,
 				614A7C7D2840CC0A008F3BE4 /* SceneDelegate.swift */,
 				614A7C7F2840CC0A008F3BE4 /* ViewController.swift */,
@@ -125,6 +131,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				614A7C922840D989008F3BE4 /* document.json in Resources */,
 				614A7C882840CC0B008F3BE4 /* LaunchScreen.storyboard in Resources */,
 				614A7C852840CC0B008F3BE4 /* Assets.xcassets in Resources */,
 				614A7C832840CC0A008F3BE4 /* Main.storyboard in Resources */,
@@ -138,6 +145,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				614A7C902840D702008F3BE4 /* GameViewController.swift in Sources */,
 				614A7C802840CC0A008F3BE4 /* ViewController.swift in Sources */,
 				614A7C7C2840CC0A008F3BE4 /* AppDelegate.swift in Sources */,
 				614A7C7E2840CC0A008F3BE4 /* SceneDelegate.swift in Sources */,
